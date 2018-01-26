@@ -22,6 +22,8 @@
 
 ## Résumé
 
+Slack : Une chaîne Slack privée dédiée est utilisée pour le projet, pour s'y rendre, demander à @valaymerick une invitation
+
 
 
 ## Statut
@@ -82,3 +84,10 @@ Une fois le front développé, on pourra envisager de commercialiser le projet.
 * [ ] Réaliser un Spyke de blockchain
 * [ ] Réaliser un MVP
 * [ ] Implémenter le front
+
+## Participants
+Aymerick Valette 
+Cedric Joseph
+David Ung
+Miguel Lareo
+Dhonny Coding
