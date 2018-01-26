@@ -13,8 +13,8 @@
 ## Sommaire
 
 - [Résumé](#quick-start)
-- [Technologies](#technologies)
 - [Status](#status)
+- [Technologies](#technologies)
 - [Apprentissage](#learning)
 - [Roadmap](#roadmap)
 - [Contribuer](#contributing)
@@ -38,15 +38,15 @@ Le back est la partie la plus importante car elle contiendra le code de la block
 
 ##### Technologies :
 
- - Python
- - Flask
+ - **Python**
+ - **Flask**
  - UnitTest
  - Travis
  - Git
 
 
-----------
 
+---
 
 #### Le front 
 Le front permettra aux utilisateurs d'envoyer des contrats et les signer. Il sera développé une fois le back terminé et la tech bien comprise.
@@ -54,8 +54,8 @@ Une fois le front développé, on pourra envisager de commercialiser le projet.
 
 ##### Technologies  :
 
- - HTML/CSS
- - Javascript
+ - **HTML/CSS**
+ - **Javascript**
  - React
  - Webpack
  - Jest
@@ -75,3 +75,10 @@ Une fois le front développé, on pourra envisager de commercialiser le projet.
  - Formation sur le responsive [Udacity Responsive Web Fundamentals](https://eu.udacity.com/course/responsive-web-design-fundamentals--ud893)
  - Formation Full-Stack avec Python [Udacity Web development](https://in.udacity.com/course/web-development--cs253)
 
+## Roadmap
+* [x] Établir les besoins du projet en terme de technologie
+* [ ] Se mettre à niveau en Python
+* [ ] Se mettre à niveau avec Flask
+* [ ] Réaliser un Spyke de blockchain
+* [ ] Réaliser un MVP
+* [ ] Implémenter le front
