@@ -30,7 +30,7 @@ Slack : There is a dedicated private channel for Lex. To contribute, ask @valaym
 
 We are currently learning the technologies needed to build the app before writing any code. The goal is to be operational before april to start working on a MVP.
 
-5 people are contributing to the project :  [Peoples](#people)
+5 people are contributing to the project :  [People](#people)
 
 ## Tech
 
@@ -81,7 +81,7 @@ The front-end will be developed once the blockchain is working. It will contain 
 * [ ] Understanding Flask
 * [ ] Building a spyke
 * [ ] Building a MVP
-* [ ] Build the front-end
+* [ ] Building the front-end
 
 ## People
 - Aymerick Valette 
