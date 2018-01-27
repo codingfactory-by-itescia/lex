@@ -1,42 +1,41 @@
+
 <p align="center">
   <a href="https://getbootstrap.com/">
-    <img src="https://i.imgur.com/bd5WkgH.png" alt="" >
+    <img src="https://i.imgur.com/RaivXo2.png" alt="" >
   </a>
 
-  <h3 align="center">Lex blockchain</h3>
+  <h3 align="center">Lex</h3>
 
   <p align="center">
-    Smart contracts management using blockchain technology making 3rd parties agents obsolete. 
+    Smart contracts management using blockchain technology, making 3rd parties agents obsolete. 
 </p>
 
 
-## Sommaire
+## Summary
 
-- [Résumé](#quick-start)
+- [Contributing](#contributing)
 - [Status](#status)
-- [Technologies](#technologies)
-- [Apprentissage](#learning)
+- [Tech](#tech)
+- [Learning](#learning)
 - [Roadmap](#roadmap)
-- [Contribuer](#contributing)
-- [Participants](#people)
+- [People](#people)
 
-## Résumé
+## Contributing
 
-Slack : Une chaîne Slack privée dédiée est utilisée pour le projet, pour s'y rendre, demander à @valaymerick une invitation
-
+Slack : There is a dedicated private channel for Lex. To contribute, ask @valaymerick for an invite
 
 
-## Statut
 
+## Status
 
-  Lex est actuellement en phase d'étude, ce qui veut dire que nous nous mettons à niveau dans les technologies nécessaires à la réalisation de l'application avant de commencer à écrire le code.
+We are currently learning the technologies needed to build the app before writing any code. The goal is to be operational before april to start working on a MVP.
 
-5 personnes participent actuellement au développement du projet :  [participants](#people)
+5 people are contributing to the project :  [Peoples](#people)
 
-## Technologies
+## Tech
 
-#### Le back 
-Le back est la partie la plus importante car elle contiendra le code de la blockchain et la gestion de serveurs
+#### Backend 
+The backend is the most important part of the development. It will contain blockchain and server related code.
 
 ##### Technologies :
 
@@ -50,9 +49,8 @@ Le back est la partie la plus importante car elle contiendra le code de la block
 
 ---
 
-#### Le front 
-Le front permettra aux utilisateurs d'envoyer des contrats et les signer. Il sera développé une fois le back terminé et la tech bien comprise.
-Une fois le front développé, on pourra envisager de commercialiser le projet.
+#### Frontend
+The front-end will be developed once the blockchain is working. It will contain a user interface letting user send, receive and sign contracts.
 
 ##### Technologies  :
 
@@ -63,31 +61,31 @@ Une fois le front développé, on pourra envisager de commercialiser le projet.
  - Jest
  - Git
 
-## Apprentissage
+## Learning
 #### Python
 
- - Formation sur les bases de Python et algorithmique, par Google  [Udacity CS101](https://eu.udacity.com/course/intro-to-computer-science--cs101)
- - Documentation et tutoriel sur Flask [Official Flask Tutorial](http://flask.pocoo.org/docs/0.12/tutorial/)
- - Tutoriel sur les tests unitaires Python [unittest introduction](http://pythontesting.net/framework/unittest/unittest-introduction/)
+ - Course on Computer Science basics using **Python**  [Udacity CS101](https://eu.udacity.com/course/intro-to-computer-science--cs101)
+ -  **Flask** official tutorial [Official Flask Tutorial](http://flask.pocoo.org/docs/0.12/tutorial/)
+ - **Python** unittest tutorial [unittest introduction](http://pythontesting.net/framework/unittest/unittest-introduction/)
 
 
 #### HTML/CSS
 
- - Formation sur le HTML/CSS  [Udacity HTML&CSS](https://in.udacity.com/course/intro-to-html-and-css--ud304)
- - Formation sur le responsive [Udacity Responsive Web Fundamentals](https://eu.udacity.com/course/responsive-web-design-fundamentals--ud893)
- - Formation Full-Stack avec Python [Udacity Web development](https://in.udacity.com/course/web-development--cs253)
+ - **HTML/CSS** course  [Udacity HTML&CSS](https://in.udacity.com/course/intro-to-html-and-css--ud304)
+ - Responsive Web design course [Udacity Responsive Web Fundamentals](https://eu.udacity.com/course/responsive-web-design-fundamentals--ud893)
+ - Full-Stack Web development [Udacity Web development](https://in.udacity.com/course/web-development--cs253)
 
 ## Roadmap
-* [x] Établir les besoins du projet en terme de technologie
-* [ ] Se mettre à niveau en Python
-* [ ] Se mettre à niveau avec Flask
-* [ ] Réaliser un Spyke de blockchain
-* [ ] Réaliser un MVP
-* [ ] Implémenter le front
+* [x] Backlog
+* [ ] Learning Python basics
+* [ ] Understanding Flask
+* [ ] Building a spyke
+* [ ] Building a MVP
+* [ ] Build the front-end
 
-## Participants
-Aymerick Valette 
-Cedric Joseph
-David Ung
-Miguel Lareo
-Dhonny Coding
+## People
+- Aymerick Valette 
+- Cedric Joseph
+- David Ung
+- Miguel Lareo
+- Dhonny 
