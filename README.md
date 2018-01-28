@@ -78,7 +78,6 @@ The front-end will be developed once the blockchain is working. It will contain 
 
 - Bitcoin [The bitcoin paper](https://bitcoin.org/bitcoin.pdf)
 - Chain [Chain.com specifications](https://chain.com/docs/1.2/protocol/specifications/blockchain#introduction)
-
 - Build a blockchain in Python [Python blockchain tutorial](https://hackernoon.com/learn-blockchains-by-building-one-117428612f46)
 
 ## Roadmap 
