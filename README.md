@@ -1,8 +1,6 @@
 
 <p align="center">
-  <a href="https://getbootstrap.com/">
-    <img src="https://i.imgur.com/RaivXo2.png" alt="" >
-  </a>
+    <img src="https://i.imgur.com/m1X6VoA.png" alt="" >
 
   <h3 align="center">Lex</h3>
 
