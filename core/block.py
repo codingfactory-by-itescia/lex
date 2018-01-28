@@ -1,14 +1,14 @@
 from hashlib import sha256
 from time import time
+from proof import Proof
 
 
 class Block:
     def __init__(self, data, previous_hash):
         self.data = data
         self.previous_hash = previous_hash
-        self.set_hash()
-
-    def set_hash(self):
-        timestamp = str(time())
-        headers = self.previous_hash + self.data + timestamp
-        self.hash = sha256(headers.encode()).hexdigest()
+        self.timestamp = str(time())
+        proof = Proof(self)
+        self.hash = proof.hash
+        self.nounce = proof.nounce
+        
