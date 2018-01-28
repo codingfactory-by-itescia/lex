@@ -5,7 +5,7 @@
   <h3 align="center">Lex</h3>
 
   <p align="center">
-    Smart contracts management using blockchain technology, making 3rd parties agents obsolete. 
+    Smart contracts management using blockchain technology, making 3rd party agents obsolete. 
 </p>
 
 
@@ -34,7 +34,7 @@ We are currently learning the technologies needed to build the app before writin
 
 #### Backend 
 The backend will contain blockchain and server related code. We use Python because of its great built-in libraries and ease-of-use. 
-Other technologies will likely be added on the long run but for now we will stick with those ones.
+Other technologies will likely be added in the long run but for now we will stick with those ones.
 
 ##### Technologies :
 
