@@ -20,7 +20,7 @@
 
 ## Contributing
 
-Slack : There is a dedicated private channel for Lex. To contribute, ask @valaymerick for an invite
+Slack : There is a dedicated private channel for Lex. To be part of it, ask @valaymerick for an invite
 
 
 
@@ -33,14 +33,14 @@ We are currently learning the technologies needed to build the app before writin
 ## Tech
 
 #### Backend 
-The backend is the most important part of the development. It will contain blockchain and server related code.
+The backend will contain blockchain and server related code. We use Python because of its great built-in libraries and ease-of-use. 
+Other technologies will likely be added on the long run but for now we will stick with those ones.
 
 ##### Technologies :
 
  - **Python**
  - **Flask**
  - UnitTest
- - Travis
  - Git
 
 
@@ -73,13 +73,25 @@ The front-end will be developed once the blockchain is working. It will contain 
  - Responsive Web design course [Udacity Responsive Web Fundamentals](https://eu.udacity.com/course/responsive-web-design-fundamentals--ud893)
  - Full-Stack Web development [Udacity Web development](https://in.udacity.com/course/web-development--cs253)
 
-## Roadmap
-* [x] Backlog
+
+#### Blockchain
+
+- Bitcoin [The bitcoin paper](https://bitcoin.org/bitcoin.pdf)
+- Chain [Chain.com specifications](https://chain.com/docs/1.2/protocol/specifications/blockchain#introduction)
+
+- Build a blockchain in Python [Python blockchain tutorial](https://hackernoon.com/learn-blockchains-by-building-one-117428612f46)
+
+## Roadmap 
+#### Beginner roadmap
+* [ ] Understanding the goals of the project
 * [ ] Learning Python basics
+* [ ] Understanding how blockchain works
 * [ ] Understanding Flask
-* [ ] Building a spyke
-* [ ] Building a MVP
-* [ ] Building the front-end
+
+#### Project roadmap 
+* [ ] Building a basic blockchain spyke
+* [ ] Writing the backend
+* [ ] Writing the frontend
 
 ## People
 - Aymerick Valette 
