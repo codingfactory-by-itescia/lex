@@ -9,6 +9,6 @@ class Block:
         self.set_hash()
 
     def set_hash(self):
-        timestamp = time()
-        headers = self.previous_hash + self.data + timestamp 
+        timestamp = str(time())
+        headers = self.previous_hash + self.data + timestamp
         self.hash = sha256(headers.encode()).hexdigest()
