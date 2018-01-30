@@ -40,6 +40,7 @@ Other technologies will likely be added in the long run but for now we will stic
 
  - **Python**
  - **Flask**
+ - A database system (ex: MongoDB, Redis)
  - UnitTest
  - Git
 
