@@ -13,3 +13,4 @@ class Block:
         proof.run()
         self.hash = proof.hash
         self.nounce = proof.nounce
+        self.tip = "true"
