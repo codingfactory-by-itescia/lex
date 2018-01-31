@@ -13,6 +13,7 @@ class Blockchain:
 
     def add_block(self, data):
         previous_block = self.database.blocks.find_one({"tip":"true"})
+        self.database.blocks.update_one({"tip":"true"},{"$set":{"tip":"false"}})
         new_block = Block(data, previous_block['hash'])
         self.database.blocks.insert_one({
             "timestamp": new_block.timestamp,
