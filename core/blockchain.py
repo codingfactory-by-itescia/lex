@@ -1,6 +1,8 @@
 from block import Block
 from pymongo import MongoClient
 
+from iterator import Iterator
+
 
 class Blockchain:
 
@@ -34,3 +36,8 @@ class Blockchain:
             "nounce": new_genesis.nounce,
             "tip":"true"
         })
+
+    def iterator(self):
+        tip = self.database.blocks.find_one({"tip":"true"})
+        return Iterator(tip.hash, self.database.blocks)
+
