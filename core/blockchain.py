@@ -14,8 +14,9 @@ class Blockchain:
             self.create_genesis()
 
     def add_block(self, data):
-        previous_block = self.database.blocks.find_one({"tip":"true"})
-        self.database.blocks.update_one({"tip":"true"},{"$set":{"tip":"false"}})
+        previous_block = self.database.blocks.find_one({"tip": "true"})
+        self.database.blocks.update_one(
+            {"tip": "true"}, {"$set": {"tip": "false"}})
         new_block = Block(data, previous_block['hash'])
         self.database.blocks.insert_one({
             "timestamp": new_block.timestamp,
@@ -23,7 +24,7 @@ class Blockchain:
             "hash": new_block.hash,
             "previous_hash": new_block.previous_hash,
             "nounce": new_block.nounce,
-            "tip":"true"
+            "tip": "true"
         })
 
     def create_genesis(self):
@@ -34,10 +35,9 @@ class Blockchain:
             "hash": new_genesis.hash,
             "previous_hash": new_genesis.previous_hash,
             "nounce": new_genesis.nounce,
-            "tip":"true"
+            "tip": "true"
         })
 
     def iterator(self):
-        tip = self.database.blocks.find_one({"tip":"true"})
+        tip = self.database.blocks.find_one({"tip": "true"})
         return Iterator(tip.hash, self.database.blocks)
-
