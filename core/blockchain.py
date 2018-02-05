@@ -28,7 +28,7 @@ class Blockchain:
         })
 
     def create_genesis(self):
-        new_genesis = Block("Genesis block", "0")
+        new_genesis = Block("genesis", "0")
         self.database.blocks.insert_one({
             "timestamp": new_genesis.timestamp,
             "data": new_genesis.data,
@@ -40,4 +40,4 @@ class Blockchain:
 
     def iterator(self):
         tip = self.database.blocks.find_one({"tip": "true"})
-        return Iterator(tip.hash, self.database.blocks)
+        return Iterator(self.database.blocks, tip['hash'])
