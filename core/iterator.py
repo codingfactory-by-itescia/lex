@@ -5,4 +5,5 @@ class Iterator:
 
     def next(self):
         current = self.db.find_one({"hash": self.current_hash})
+        self.current_hash = current['previous_hash']
         return self.db.find_one({"hash": current['previous_hash']})
