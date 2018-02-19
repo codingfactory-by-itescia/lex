@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img src="https://i.imgur.com/rEKriDG.png" alt="" >
+    <img src="https://i.imgur.com/MmI7tyf.png" alt="" >
 
   <h3 align="center">Lex</h3>
 
