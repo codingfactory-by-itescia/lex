@@ -5,8 +5,8 @@ from proof import Proof
 
 
 class Block:
-    def __init__(self, data, previous_hash):
-        self.data = data
+    def __init__(self, transactions, previous_hash):
+        self.transactions = transactions
         self.previous_hash = previous_hash
         self.timestamp = str(time())
         proof = Proof(self)
