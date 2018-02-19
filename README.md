@@ -94,8 +94,8 @@ The front-end will be developed once the blockchain is working. It will contain 
 * [ ] Writing the frontend
 
 ## People
-- Aymerick Valette 
+- [Aymerick Valette](https://github.com/valaymerick)
 - Cedric Joseph
-- David Ung
+- [David Ung](https://github.com/ungdav)
 - Miguel Lareo
-- Dhonny 
+- Dhaunny
